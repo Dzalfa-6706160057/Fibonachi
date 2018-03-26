@@ -25,15 +25,13 @@ public class Fibonachi {
         fibonachi[0] = 0;
         fibonachi[1] = 1;
         
-        for (int i = 2; i < input; i++) {
-            fibonachi[i] = fibonachi[i-1] + fibonachi[i-2];
-        }
-        
         for (int i = 0; i < input; i++) {
             System.out.print(fibonachi[i]);
             System.out.print(" ");
         }
         
-    }
-    
+        for (int i = 2; i < input; i++) {
+            fibonachi[i] = fibonachi[i-1] + fibonachi[i-2];
+        }
+    }   
 }
