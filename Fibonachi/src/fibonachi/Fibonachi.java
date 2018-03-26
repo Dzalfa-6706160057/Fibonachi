@@ -33,7 +33,7 @@ public class Fibonachi {
             System.out.print(fibonachi[i]);
             System.out.print(" ");
         }
-        
+        System.out.println("TOTAL: ");
     }
     
 }
